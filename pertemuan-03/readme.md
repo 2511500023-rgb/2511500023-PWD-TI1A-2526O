@@ -15,4 +15,5 @@ Hari ini rabu 13 oktober saya belajar
 <li>“section#contact upgrade struktur form”</li>
 <li>“section#contact styling label”,</li>
 <li>“section#contact styling label>span”,</li>
+<li>“section#contact styling input dan textarea”</l>
 </ol>
