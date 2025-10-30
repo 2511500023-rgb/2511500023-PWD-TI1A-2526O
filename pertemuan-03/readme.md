@@ -11,4 +11,5 @@ Hari ini rabu 13 oktober saya belajar
 <li>membuat styling untuk selector id #about strong </li>
 <li>membuat styling untuk selector if #about mode responsip mobile </li>
 <li>“section#contact groups selector”</li>
+<li>“section#contact groups selector h2”</li>
 </ol>
