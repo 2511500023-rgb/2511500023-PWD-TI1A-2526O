@@ -7,4 +7,8 @@ Hari ini rabu 13 oktober saya belajar
 <li>membuat struktur form untuk section contack </li>
 <li>membuat styling untuk selector id #about </li>
 <li>membuat styling untuk selector id #about elemen h2</li>
+<li>membuat styling untuk selector id #about elemen p</li>
+<li>membuat styling untuk selector id #about strong </li>
+<li>membuat styling untuk selector if #about mode responsip mobile </li>
+<li>“section#contact groups selector”</li>
 </ol>
