@@ -19,4 +19,6 @@ menghapus file
   <li>menambahkan tampilan data</li>
   <li>menambahkan file </li>
   <li>menambahkan require </li>
+  <li>menambahkan ses </li>
+  
 </ol>
