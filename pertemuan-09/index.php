@@ -4,12 +4,12 @@ require_once __DIR__ . '/fungsi.php';
 
 $arrContact =$_SESSION["contact"] ?? [];
 $fieldContact =[
-    "nama" => $_POST["txtNama"] ?? "",
-    "email" => $_POST["txtEmail"] ?? "",
-    "pesan" => $_POST["txtPesan"] ?? "",
+    "nama" => ["label" => "Nama:",      "suffix" =>""],
+    "email" => ["label"=> "Email:",       "suffix" =>""],
+    "pesan" => ["label" => "Pesan Anda:",     "suffix"  =>""],
 ];
 
-$arrBiodata = $_SESSION["biodata"] ?? [];
+$biodata = $_SESSION["biodata"] ?? [];
 
 $fieldConfig = [
     "nim"      => ["label" => "NIM:",            "suffix" => ""],
@@ -21,7 +21,7 @@ $fieldConfig = [
     "pekerjaan"=> ["label" => "Pekerjaan:",      "suffix" => " &copy; 2025"],
     "ortu"     => ["label" => "Nama Orang Tua:", "suffix" => ""],
     "kakak"    => ["label" => "Nama Kakak:",     "suffix" => ""],
-    "adik"     => ["label" => "Nama Adik:",      "suffix" => ""],
+    "adik"     => ["label" => "Nama Adik:",      "suffix" => ""]
 ];
 ?>
 
