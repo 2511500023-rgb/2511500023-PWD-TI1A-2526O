@@ -1,22 +1,15 @@
 <?php
 session_start();
 require_once __DIR__ . '/fungsi.php';
-$sesnama = "";
-if (isset($_SESSION["sesnama"])):
-  $sesnama = $_SESSION["sesnama"];
-endif;
 
-$sesemail = "";
-if (isset($_SESSION["sesemail"])):
-  $sesemail = $_SESSION["sesemail"];
-endif;
+$arrContact =$_SESSION["contact"] ?? [];
+$fieldContact =[
+    "nama" => $_POST["txtNama"] ?? "",
+    "email" => $_POST["txtEmail"] ?? "",
+    "pesan" => $_POST["txtPesan"] ?? "",
+];
 
-$sespesan = "";
-if (isset($_SESSION["sespesan"])):
-  $sespesan = $_SESSION["sespesan"];
-endif;
-
-$biodata = $_SESSION["biodata"] ?? [];
+$arrBiodata = $_SESSION["biodata"] ?? [];
 
 $fieldConfig = [
     "nim"      => ["label" => "NIM:",            "suffix" => ""],
@@ -127,7 +120,7 @@ $fieldConfig = [
       <h2>Kontak Kami</h2>
       <form action="proses.php" method="POST">
 
-      
+
         <label for="txtNama"><span>Nama:</span>
           <input type="text" id="txtNama" name="txtNama" placeholder="Masukkan nama" required autocomplete="name">
         </label>

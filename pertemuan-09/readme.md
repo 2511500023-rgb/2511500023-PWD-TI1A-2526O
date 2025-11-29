@@ -23,4 +23,5 @@ menghapus file
   <li>membuat array contact </li>
   <li>membuat season contac </li>
   <li>membuat fungsion contact </li>
+  <li>membuat season nama </li>
 </ol>
