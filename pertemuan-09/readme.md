@@ -16,5 +16,6 @@ menghapus file
   <li>copy item</li>
   <li>menyalin modul no 10</li>
   <li>menambahkan php <li>
+  <li>membuat file fungsi php<li>
   
 </ol>
