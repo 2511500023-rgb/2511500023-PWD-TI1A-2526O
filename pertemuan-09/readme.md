@@ -14,4 +14,5 @@ menghapus file
   <li>echo session ke nilai label section contact</li>
   <li>echo session ke nilai label section contact selesai</li>
   <li>copy item</li>
+  <li>menyalin modul no 10</li>
 </ol>
