@@ -22,5 +22,5 @@ menghapus file
   <li>menambahkan ses </li>
   <li>membuat array contact </li>
   <li>membuat season contac </li>
-  
+  <li>membuat fungsion contact </li>
 </ol>
