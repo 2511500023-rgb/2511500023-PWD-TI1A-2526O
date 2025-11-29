@@ -18,4 +18,5 @@ menghapus file
   <li>menambhkan fungsi php</li>
   <li>menambahkan tampilan data</li>
   <li>menambahkan file </li>
+  <li>menambahkan require </li>
 </ol>
