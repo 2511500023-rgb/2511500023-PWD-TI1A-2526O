@@ -11,3 +11,7 @@ function formatTanggal($tgl)
 {
 return date("d M Y", strtotime($tgl));
 }
+function formatTanggal($tgl)
+{
+return date("d M Y", strtotime($tgl));
+}
