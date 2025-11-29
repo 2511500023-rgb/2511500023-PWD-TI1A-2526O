@@ -1,4 +1,6 @@
 # pertemuan-09
+menghapus file 
+
 
 <ol>
   <li>Hasil UTS untuk bahan pertemuan-09</li>
