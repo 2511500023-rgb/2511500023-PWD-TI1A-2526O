@@ -21,4 +21,6 @@ menghapus file
   <li>menambahkan require </li>
   <li>menambahkan ses </li>
   <li>membuat array contact </li>
+  <li>membuat season contac </li>
+  
 </ol>
