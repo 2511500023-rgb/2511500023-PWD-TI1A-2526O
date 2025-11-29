@@ -20,5 +20,5 @@ menghapus file
   <li>menambahkan file </li>
   <li>menambahkan require </li>
   <li>menambahkan ses </li>
-  
+  <li>membuat array contact </li>
 </ol>
