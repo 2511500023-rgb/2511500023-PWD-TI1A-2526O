@@ -17,4 +17,5 @@ menghapus file
   <li>menyalin modul no 10</li>
   <li>menambhkan fungsi php</li>
   <li>menambahkan tampilan data</li>
+  <li>menambahkan file </li>
 </ol>
