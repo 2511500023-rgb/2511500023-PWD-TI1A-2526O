@@ -1,5 +1,4 @@
 # pertemuan-09
-update file redmi </li>
 
 <ol>
   <li>Hasil UTS untuk bahan pertemuan-09</li>
