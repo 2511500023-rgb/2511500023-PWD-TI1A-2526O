@@ -108,7 +108,7 @@ require_once __DIR__ . '/fungsi.php';
       <h2>Tentang Saya</h2>
       <?= tampilkanBiodata($fieldConfig, $biodata) ?>
     </section>
-    </section>
+  </section>
 
 <?php
 $flash_sukses = $_SESSION['flash_sukses'] ?? ''; #jika query sukses
@@ -117,6 +117,7 @@ $old          = $_SESSION['old'] ?? [];          #untuk nilai lama form
 
 unset($_SESSION['flash_sukses'], $_SESSION['flash_error'], $_SESSION['old']); #bersihkan 3 session ini
 ?>
+
 <section id="contact">
     <h2>Kontak Kami</h2>
 
