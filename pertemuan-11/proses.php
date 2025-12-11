@@ -9,6 +9,26 @@ $nama  = trim($_POST["txtNama"] ?? '');
 $email = trim($_POST["txtEmail"] ?? '');
 $pesan = trim($_POST["txtPesan"] ?? '');
 
+$eror = [];
+
+if ($nama === "") {
+    $eror[] = "Nama harus diisi!";
+}
+if ($email === "") {
+    $eror[] = "Email harus diisi!";
+} elseif (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+    $eror[] = "Format email tidak valid!";
+}
+if ($pesan === "") {
+    $eror[] = "Pesan harus diisi!";
+}
+
+if (!empty($eror)) {
+    $_SESSION["flash_error"] = implode("<br>", $eror);
+    $_SESSION["old"] = compact("nama", "email", "pesan");
+    redirect_ke("index.php#contact");
+    exit;
+}
 arrContact = [
   "nama" => $_POST["txtNama"] ?? "",
   "email" => $_POST["txtEmail"] ?? "",
