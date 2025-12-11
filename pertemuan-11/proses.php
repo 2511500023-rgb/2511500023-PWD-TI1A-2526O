@@ -5,6 +5,10 @@ if ($_SERVER["REQUEST_METHOD"] !== "POST") {
     redirect_ke("index.php#contact");
     exit;
 }
+$nama  = trim($_POST["txtNama"] ?? '');
+$email = trim($_POST["txtEmail"] ?? '');
+$pesan = trim($_POST["txtPesan"] ?? '');
+
 arrContact = [
   "nama" => $_POST["txtNama"] ?? "",
   "email" => $_POST["txtEmail"] ?? "",
