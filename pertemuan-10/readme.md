@@ -1,10 +1,10 @@
-pertemuan 10 membuat file koneksi php
-mengetik file koneksi
-membuat data base di my sql
-mengcrate table pada my sql
-membuat file read php
-memodif file read php menjadi read inc php
-mengubah file 146
-mengapus file 131 - 141
-memperbaiki 
-menambkan file local host
+pertemuan 10 membuat file koneksi php<li>
+mengetik file koneksi<li>
+membuat data base di my sql<li>
+mengcrate table pada my sql<li>
+membuat file read php<li>
+memodif file read php menjadi read inc php<li>
+mengubah file 146 <li>
+mengapus file 131 - 141 <li>
+memperbaiki <li>
+menambkan file local host<li>
