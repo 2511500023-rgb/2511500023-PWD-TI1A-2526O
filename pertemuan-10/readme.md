@@ -7,3 +7,4 @@ memodif file read php menjadi read inc php
 mengubah file 146
 mengapus file 131 - 141
 memperbaiki 
+menambkan file local host
