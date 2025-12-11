@@ -1,4 +1,4 @@
-<?php
+<?
 function bersihkan($str)
 {
   return htmlspecialchars(trim($str));
