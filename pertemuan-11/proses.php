@@ -1,5 +1,8 @@
 <?php
 session_start();
+require 'koneksi.php';
+require 'fungsi.php';
+
 if ($_SERVER["REQUEST_METHOD"] !== "POST") {
     $_SESSION["error"] = "Akses tidak valid!";
     redirect_ke("index.php#contact");
@@ -30,7 +33,7 @@ if (!empty($eror)) {
     exit;
 }
 
-arrContact = [
+$arrContact = [
   "nama" => $_POST["txtNama"] ?? "",
   "email" => $_POST["txtEmail"] ?? "",
   "pesan" => $_POST["txtPesan"] ?? ""
